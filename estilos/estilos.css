@@ -1,0 +1,750 @@
+
+header{
+    position: relative;
+}
+
+.contenedor header img{
+    width: 200px;
+    display: inline-block;
+    
+}
+.menu{
+    display: inline-block;
+    font-size:24px;
+    position: absolute;
+    right: 0;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    margin-left:20px;
+    
+    
+    
+}
+section h1{
+    font-size:90px;
+    margin-bottom:0;
+    margin-top:70px;
+}
+section h3{
+    font-size:24px;
+    margin-top:0;
+    
+}
+section button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #fd324e;
+    padding: 10px;
+    font-family: cambria;
+    font-size: 15px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    height: 500px;
+    font-family: cambria;
+    color:white;
+}
+.portada{
+    width:1200px;
+    margin:auto;
+    padding:20px;
+   
+}
+.contenedor{
+    background-image: url('../images/blur-bokeh-close-up-225228-min.jpg');
+    background-size:cover;
+    height: 100vh;
+}
+.slider{
+    width: 100%;
+    height:600px;
+    
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider ul{
+    margin-top:0;
+    margin-bottom:-4px;
+    padding:0;
+    display: flex;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+}
+@keyframes cambio{
+    0%{margin-left:0;}
+    20%{margin-left:0;}
+
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+}
+.slider li{
+    list-style: none;
+    width:100%;
+}
+.slider img{
+    width:100%;
+    height: 700px;
+    box-sizing: border-box
+    
+    
+}
+span{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    display: block;
+}
+.contenido{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color:#FAF9F8
+    
+    
+    
+}
+.contenido1{
+    width: 100%;
+    height:398.98px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color:#1f313c;
+    color:white;
+}
+.contenido2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    background-color:#FAF9F8;
+}
+.contenido3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    color: white;
+    background-image: url('../images/agenda-analysis-business-990818-min.jpg');
+    background-size: cover;
+    height: 400px;
+}
+.contenido .somos-img img{
+    width: 720px;
+    height: 100%;
+    margin-bottom: 0;
+    
+    
+    
+    
+    
+}
+.contenido1 .funciona-img img{
+    width: 800px;
+    
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.contenido .quienes-somos{
+    text-align: center;
+    vertical-align: center;
+    width: 600px;
+    margin:auto;
+    
+}
+.contenido1 .texto-funciona{
+    text-align: center;
+    vertical-align: center;
+    width: 600px;
+    margin:auto;
+}
+.contenido2 .texto-extra{
+    text-align: center;
+    vertical-align: center;
+    width: 800px;
+    margin:auto;
+    padding-bottom: 20px;
+}
+.contenido3 .texto-objetivo{
+    text-align: center;
+    vertical-align: center;
+    width: 800px;
+    margin:auto;
+   
+}
+.contenido .quienes-somos h2{
+    font-size:50px;
+}
+.contenido1 .texto-funciona h2{
+    font-size:50px;
+}
+.contenido2 .texto-extra h2{
+    font-size:60px;
+}
+.contenido3 .texto-objetivo h2{
+    font-size:60px;
+}
+.contenido .quienes-somos p{
+    font-size:20px;
+}
+.contenido1 .texto-funciona p{
+    font-size:20px;
+}
+.contenido2 .texto-extra p{
+    font-size:25px;
+}
+.contenido3 .texto-objetivo p{
+    font-size:25px;
+}
+
+
+@media only screen and (max-width:480px) {
+    html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+    
+    header{
+        position: relative;
+    }
+    .contenedor{
+        width:480px;
+    }
+    .contenedor header img{
+        width: 180px;
+        display: inline-block;
+        position:absolute;
+        left: 120px;
+        margin-top:50px;
+        
+    }
+    nav{
+        
+        
+        width:300px;
+    }
+    .menu{
+        display: inline-block;
+        font-size:18px;
+        position: absolute;
+        left:50px;;
+        top:250px;
+    }
+    .menu li{
+        list-style: none;
+        display: inline-block;
+        
+    }
+    .menu a{
+        text-decoration: none;
+        color:white;
+        
+        
+        
+        
+    }
+    section h1{
+        font-size:37px;
+        margin-bottom:0;
+        margin-top:70px;
+        
+    }
+    section h3{
+        font-size:18px;
+        margin-top:0;
+        
+    }
+    section button{
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: #fd324e;
+        padding: 10px;
+        font-family: cambria;
+        font-size: 15px;
+        box-sizing: border-box;
+        
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:center;
+        height: 900px;
+        position: absolute;
+        left: 75px;
+        font-family: cambria;
+        color:white;
+    }
+    .portada{
+        width:480px;
+        margin:auto;
+        padding: 20px;
+        box-sizing: border-box;
+       
+    }
+    .slider{
+        width: 480px;
+        height:300px;
+        
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .slider ul{
+        margin-top:0;
+        margin-bottom:-4px;
+        padding:0;
+        display: flex;
+        width: 400%;
+        animation: cambio 20s infinite;
+        animation-direction: alternate;
+    }
+    @keyframes cambio{
+        0%{margin-left:0;}
+        20%{margin-left:0;}
+    
+        25%{margin-left:-100%;}
+        45%{margin-left:-100%;}
+    
+        50%{margin-left:-200%;}
+        70%{margin-left:-200%;}
+    
+        75%{margin-left:-300%;}
+        100%{margin-left:-300%;}
+    }
+    .slider li{
+        list-style: none;
+        width:100%;
+    }
+    .slider img{
+        width:100%;
+        height: 300px;
+        box-sizing: border-box
+        
+        
+    }
+    .contenido{
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        background-color:#FAF9F8
+        
+        
+        
+    }
+    .contenido .somos-img img{
+        width: 480px;
+        height: 180px;
+        margin-bottom: 0;
+        
+        
+        
+        
+        
+    }
+    .contenido .quienes-somos{
+        text-align: center;
+        vertical-align: center;
+        width: 480px;
+        margin:auto;
+        
+    }
+    .contenido .quienes-somos h2{
+        font-size:40px;
+    }
+    .contenido .quienes-somos p{
+        font-size:15px;
+        text-align: justify;
+        padding: 10px;
+        padding-bottom:20px;
+        
+    }
+    .contenido1{
+        width: 480px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        background-color:#1f313c;
+        color:white;
+    }
+    .contenido1 .funciona-img img{
+        width: 480px;
+        position: absolute;
+        top: 0;
+        height: 180px;
+        margin-bottom: 0;
+    }
+    .contenido1 .texto-funciona{
+        text-align: center;
+        vertical-align: center;
+        width: 480px;
+        margin:auto;
+        position: absolute;
+        bottom: 0;
+        
+        
+        
+    }
+    .contenido1 .texto-funciona h2{
+        font-size:40px;
+        
+    }
+    .contenido1 .texto-funciona p{
+        font-size:15px;
+        text-align: justify;
+        padding: 10px;
+        padding-bottom: 20px;
+        
+    }
+    .contenido2{
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        background-color:#FAF9F8;
+    }
+    .contenido2 .texto-extra{
+        text-align: center;
+        vertical-align: center;
+        width: 480px;
+        margin:auto;
+    }
+    .contenido2 .texto-extra h2{
+        font-size:40px;
+    }
+    .contenido2 .texto-extra p{
+        font-size:18px;
+        text-align: justify;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .contenido3{
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        color: white;
+        background-image: url('../images/agenda-analysis-business-990818-min.jpg');
+        background-size: cover;
+        height: 400px;
+    }
+    .contenido3 .texto-objetivo{
+        text-align: center;
+        vertical-align: center;
+        width: 480px;
+        margin:auto;
+       
+    }
+    .contenido3 .texto-objetivo h2{
+        font-size:40px;
+    }
+    .contenido3 .texto-objetivo p{
+        font-size:20px;
+        text-align: justify;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    span{
+        width: 480px;
+        height: 25px;
+        background-color: black;
+        display: block;
+        padding: 0;
+        margin:0;
+    }
+}
+@media only screen and (max-width:320px) {
+    html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+    
+    header{
+        position: relative;
+    }
+    .contenedor{
+        width:320px;
+        
+    }
+    .contenedor header img{
+        width: 140px;
+        display: inline-block;
+        position:absolute;
+        left: 60px;
+        margin-top:50px;
+        
+    }
+    nav{
+        
+        
+        width:160px;
+    }
+    .menu{
+        display: inline-block;
+        font-size:18px;
+        position: absolute;
+        left:30px;;
+        top:220px;
+        
+    }
+    .menu li{
+        list-style: none;
+        display: inline-block;
+        
+    }
+    .menu a{
+        text-decoration: none;
+        color:white;
+        
+        
+        
+        
+    }
+    section h1{
+        font-size:30px;
+        margin-bottom:0;
+        margin-top:70px;
+    }
+    section h3{
+        font-size:14px;
+        margin-top:0;
+        
+    }
+    section button{
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: #fd324e;
+        padding: 10px;
+        font-family: cambria;
+        font-size: 15px;
+        box-sizing: border-box;
+        
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:center;
+        height: 900px;
+        left: 30px;
+        font-family: cambria;
+        color:white;
+    }
+    .portada{
+        width:320px;
+        margin:auto;
+        padding: 20px;
+        box-sizing: border-box;
+       
+    }
+    .slider{
+        width: 320px;
+        height:300px;
+        
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .slider ul{
+        margin-top:0;
+        margin-bottom:-4px;
+        padding:0;
+        display: flex;
+        width: 400%;
+        animation: cambio 20s infinite;
+        animation-direction: alternate;
+    }
+    @keyframes cambio{
+        0%{margin-left:0;}
+        20%{margin-left:0;}
+    
+        25%{margin-left:-100%;}
+        45%{margin-left:-100%;}
+    
+        50%{margin-left:-200%;}
+        70%{margin-left:-200%;}
+    
+        75%{margin-left:-300%;}
+        100%{margin-left:-300%;}
+    }
+    .slider li{
+        list-style: none;
+        width:100%;
+    }
+    .slider img{
+        width:100%;
+        height: 300px;
+        box-sizing: border-box
+        
+        
+    }
+    .contenido{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        background-color:#FAF9F8
+        
+        
+        
+    }
+    .contenido .somos-img img{
+        width: 320px;
+        height: 180px;
+        margin-bottom: 0;
+        
+        
+        
+        
+        
+    }
+    .contenido .quienes-somos{
+        text-align: center;
+        vertical-align: center;
+        width: 320px;
+        margin:auto;
+        
+    }
+    .contenido .quienes-somos h2{
+        font-size:30px;
+    }
+    .contenido .quienes-somos p{
+        font-size:14px;
+        text-align: justify;
+        padding: 10px;
+        
+    }
+    .contenido1{
+        width: 320px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        background-color:#1f313c;
+        color:white;
+    }
+    .contenido1 .funciona-img img{
+        width: 320px;
+        position: absolute;
+        top: 0;
+        height: 180px;
+        margin-bottom: 0;
+    }
+    .contenido1 .texto-funciona{
+        text-align: center;
+        vertical-align: center;
+        width: 320px;
+        margin:auto;
+        position: absolute;
+        bottom: 0;
+        
+        
+        
+    }
+    .contenido1 .texto-funciona h2{
+        font-size:30px;
+        
+    }
+    .contenido1 .texto-funciona p{
+        font-size:14px;
+        text-align: justify;
+        padding: 10px;
+    }
+    .contenido2{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        background-color:#FAF9F8;
+    }
+    .contenido3{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        background-color:#FAF9F8;
+    }
+    .contenido2 .texto-extra{
+        text-align: center;
+        vertical-align: center;
+        width: 320px;
+        margin:auto;
+    }
+    .contenido3 .texto-objetivo{
+        text-align: center;
+        vertical-align: center;
+        width: 320px;
+        margin:auto;
+    }
+
+    .contenido3 .texto-objetivo h2{
+        font-size:30px;
+    }
+    .contenido2 .texto-extra h2{
+        font-size:30px;
+    }
+    .contenido2 .texto-extra p{
+        font-size:18px;
+        text-align: justify;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .contenido3 .texto-objetivo p{
+        font-size:18px;
+        text-align: justify;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    span{
+        width: 320px;
+        height: 25px;
+        background-color: black;
+        display: block;
+        padding: 0;
+        margin:0;
+    }
+}
+
+
+
+
+   
