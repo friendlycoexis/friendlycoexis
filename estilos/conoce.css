@@ -1,0 +1,75 @@
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    margin: 20px 0;
+    background: #eb4a33;
+}
+header h1{
+    padding: 20px 0;
+    
+    text-align: center;
+}
+.main{
+    width: 70%;
+    background: #fff;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+.main h1{
+    font-size: 45px;
+}
+.main p{
+    font-size:18px;
+}
+.main img{
+    width: 100%;
+    height: auto;
+}
+aside{
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #ccc;
+    float: left;
+    margin-top: 10px;
+}
+
+footer{
+    clear:both;
+    float: left;
+    margin-top:20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding:20px;
+    color: white;
+    background: black;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+}
+@media only screen and (max-width:800px) {
+    .main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:400px) {
+    .container{
+        width: 100%;
+    }
+}
+aside a{
+    text-decoration: none;
+    color: black;
+}
+aside a:hover{
+    color: blue;
+}
