@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+.container-fluid{
+    overflow: hidden;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Alegreya', sans-serif;
+}
+p{
+    text-align:center;
+    font-size:15px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.pob{
+    margin-bottom:58px;
+}
+
+header h3{
+    
+    color: #F6F6EE;
+}
+header{
+    background-color:#580421;
+}
+
+@media screen and (min-width:575px) {
+    .mcl{
+        height: 270px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:767px) {
+    .msm{
+        height: 350px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:991px) {
+    .mim{
+        height: 450px;
+        width: 100%;
+        
+    }
+}
+@media screen and (min-width:1119px) {
+    .logo{
+        font-size: 90px;
+    }
+   
+   h2{
+       font-size:50px;
+   }
+   p{
+       text-align:center;
+       font-size:17px;
+   }
+   .bnm{
+       margin-bottom:30px;
+   }
+   .njk{
+       margin-top:60px;
+   }
+   .jkl{
+       min-height: 100vh;
+       width: 100%;
+       
+   }
+   h3{
+       font-size: 50px;
+       letter-spacing: 4px;
+   }
+  
+}
+
+@media screen and (min-width:768px) {
+    .vb{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:815px) {
+    .mab{
+        margin-bottom:48px;
+    }
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+    .redim{
+        
+        max-height: 314.08px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .redimh2{
+        font-size: 30px;
+    }
+    
+    .mab{
+        margin-bottom: 35px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .redim{
+        max-height: 335.95px;
+    } 
+}
+@media screen and (max-width:767px) {
+    header h3{
+        text-align: center;
+        font-size: 38px;
+    }
+    .rem1{ 
+        margin-bottom: 0;
+        padding-bottom:0 !important;
+        
+    }
+    .rem2{
+        padding-bottom:0 !important;
+        padding-top:10px !important;
+    }
+}
+
+@media screen and (min-width:768px) {
+    header h3{
+        font-size:45px;
+        margin-left:30px;
+        
+    }
+    ul{
+        margin-right: 30px;
+        
+    }
+}
